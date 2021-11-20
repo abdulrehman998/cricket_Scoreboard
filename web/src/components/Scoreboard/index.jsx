@@ -30,7 +30,7 @@ function Scoreboard() {
 
 
     useEffect(() => {
-        const socket = io("http://localhost:5001"); // to connect with locally running Socker.io server
+        const socket = io("https://cricketscoreboard.herokuapp.com/"); // to connect with locally running Socker.io server
 
         socket.on('connect', function () {
             console.log("connected to server")
