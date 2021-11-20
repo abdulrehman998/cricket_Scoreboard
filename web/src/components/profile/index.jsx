@@ -314,6 +314,7 @@ function Dashboard() {
                                 fullWidth
                                 color="primary"
                                 id="outlined-basic"
+                                type="number"
                                 label="Batter 1 Runs"
                                 variant="standard"
                                 value={score.batter1runs}
@@ -337,6 +338,7 @@ function Dashboard() {
                                 color="primary"
                                 id="outlined-basic"
                                 label="Batter 1 Balls"
+                                type="number"
                                 variant="standard"
                                 value={score.batter1balls}
                                 onChange={(e) => {
@@ -380,6 +382,7 @@ function Dashboard() {
                                 fullWidth
                                 color="primary"
                                 id="outlined-basic"
+                                type="number"
                                 label="Batter 2 Runs"
                                 variant="standard"
                                 value={score.batter2runs}
@@ -403,6 +406,7 @@ function Dashboard() {
                                 fullWidth
                                 color="primary"
                                 id="outlined-basic"
+                                type="number"
                                 label="Batter 2 Balls"
                                 variant="standard"
                                 value={score.batter2balls}
@@ -425,6 +429,7 @@ function Dashboard() {
                                 fullWidth
                                 color="primary"
                                 id="outlined-basic"
+                                type="number"
                                 label="Bowler's Runs"
                                 variant="standard"
                                 value={score.bowlerruns}
@@ -447,6 +452,7 @@ function Dashboard() {
                                 fullWidth
                                 color="primary"
                                 id="outlined-basic"
+                                type="number"
                                 label="Bowler's Wicket"
                                 variant="standard"
                                 value={score.bowlerwickets}
@@ -469,6 +475,7 @@ function Dashboard() {
                                 fullWidth
                                 color="primary"
                                 id="outlined-basic"
+                                type="number"
                                 label="Bowler's Overs"
                                 variant="standard"
                                 value={score.bowlerovers}
